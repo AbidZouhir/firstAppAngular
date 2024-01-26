@@ -2,9 +2,9 @@
   "products": [
     {
       "id": "1",
-      "name": "Computer",
-      "prix": 5600,
-      "checked": false
+      "name": "PC",
+      "prix": 7000,
+      "checked": true
     },
     {
       "id": "2",
@@ -14,21 +14,69 @@
     },
     {
       "id": "3",
-      "name": "Phone",
+      "name": "Watch",
       "prix": 7000,
       "checked": false
     },
     {
       "id": "4",
       "name": "Tv",
-      "prix": 4500,
+      "prix": 7000,
+      "checked": false
+    },
+    {
+      "id": "10f3",
+      "name": "Smart tv",
+      "prix": "6200",
+      "checked": false
+    },
+    {
+      "id": "7cc7",
+      "name": "Smart tv",
+      "prix": "6200",
       "checked": true
     },
     {
-      "id": "5",
-      "name": "Watch",
-      "prix": 1000,
+      "id": "ae07",
+      "name": "Smart tv",
+      "prix": "6200",
+      "checked": true
+    },
+    {
+      "id": "0339",
+      "name": "Router",
+      "prix": "900",
       "checked": false
+    },
+    {
+      "id": "9e59",
+      "name": "Router",
+      "prix": "900",
+      "checked": false
+    },
+    {
+      "id": "534a",
+      "name": "Switcher",
+      "prix": "526",
+      "checked": true
+    },
+    {
+      "name": "PC hp",
+      "prix": "5300",
+      "checked": false,
+      "id": "s6e9JTw"
+    },
+    {
+      "name": "PC hp",
+      "prix": "5300",
+      "checked": false,
+      "id": "t44M5Pu"
+    },
+    {
+      "name": "PC hp",
+      "prix": "5300",
+      "checked": true,
+      "id": "FTMIKT5"
     }
   ]
 }

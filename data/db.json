@@ -8,14 +8,14 @@
     },
     {
       "id": "2",
-      "name": "Printer",
-      "prix": 16000,
+      "name": "Printer 52",
+      "prix": "60253",
       "checked": true
     },
     {
       "id": "3",
-      "name": "Watch",
-      "prix": 7000,
+      "name": "Watch 4",
+      "prix": "5210",
       "checked": false
     },
     {
@@ -77,6 +77,84 @@
       "prix": "5300",
       "checked": true,
       "id": "FTMIKT5"
+    },
+    {
+      "name": "PC hp",
+      "prix": "5300",
+      "checked": false,
+      "id": "t44M5Pu"
+    },
+    {
+      "name": "PC hp",
+      "prix": "5300",
+      "checked": false,
+      "id": "t44M5Pu"
+    },
+    {
+      "name": "PC hp",
+      "prix": "5300",
+      "checked": false,
+      "id": "t44M5Pu"
+    },
+    {
+      "name": "PC hp",
+      "prix": "5300",
+      "checked": false,
+      "id": "t44M5Pu"
+    },
+    {
+      "name": "PC hp",
+      "prix": "5300",
+      "checked": false,
+      "id": "t44M5Pu"
+    },
+    {
+      "name": "PC hp",
+      "prix": "5300",
+      "checked": false,
+      "id": "t44M5Pu"
+    },
+    {
+      "name": "PC hp",
+      "prix": "5300",
+      "checked": false,
+      "id": "t44M5Pu"
+    },
+    {
+      "name": "PC hp",
+      "prix": "5300",
+      "checked": false,
+      "id": "t44M5Pu"
+    },
+    {
+      "name": "PC hp",
+      "prix": "5300",
+      "checked": false,
+      "id": "t44M5Pu"
+    },
+    {
+      "name": "PC hp",
+      "prix": "5300",
+      "checked": false,
+      "id": "t44M5Pu"
+    },
+    {
+      "name": "PC hp",
+      "prix": "5300",
+      "checked": false,
+      "id": "t44M5Pu"
+    },
+    {
+      "name": "PC hp",
+      "prix": "5300",
+      "checked": false,
+      "id": "t44M5Pu"
+    },
+    {
+      "name": "PC hp",
+      "prix": "5300",
+      "checked": false,
+      "id": "t44M5Pu"
     }
   ]
 }

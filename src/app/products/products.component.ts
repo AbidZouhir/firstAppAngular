@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {ProductService} from "../services/product.service";
 import {Product} from "../model/product.model";
 import {Observable} from "rxjs";
+import {Router, RouterOutlet} from "@angular/router";
 
 @Component({
   selector: 'app-product',
@@ -14,14 +15,15 @@ export class ProductsComponent implements OnInit{
   totalPages : number=0;
   pageSize : number=4
   currentPage : number=1;
-  constructor(private productService : ProductService) {
+  constructor(private productService : ProductService,
+              private router : Router) {
   }
 
   ngOnInit(){
      this.getProducts();
     }
     getProducts(){
-      this.productService.getProducts(this.currentPage,this.pageSize).subscribe({
+      this.productService.searchProducts(this.keyword,this.currentPage,this.pageSize).subscribe({
         next : (response) => {
           this.products=response.body as Product[];
           let totalProduct : number=parseInt(response.headers.get(`X-Total-Count`)!);
@@ -56,14 +58,13 @@ export class ProductsComponent implements OnInit{
     });
   }
 
-  searchProducts() {
-    this.productService.searchProduct(this.keyword).subscribe({
-      next : value => this.products=value
-    })
-  }
 
   goToPage(page: number) {
     this.currentPage=page;
     this.getProducts();
+  }
+
+  updateProduct(product: Product) {
+    this.router.navigateByUrl(`updateProduct/${product.id}`);
   }
 }

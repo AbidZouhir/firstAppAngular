@@ -3,7 +3,7 @@
     <div class="card-body">
       <div class="card-body">
         <input type="text" [(ngModel)]="keyword">
-        <button (click)="searchProducts()" class="btn btn-outline-success m-lg-1">Search
+        <button (click)="getProducts()" class="btn btn-outline-success m-lg-1">Search
           <i class="bi bi-search"></i>
         </button>
       </div>
@@ -25,6 +25,11 @@
           <td>
             <button (click)="deleteProduct(product)" class="btn btn-outline-danger">Delete
               <i class="bi bi-trash"></i>
+            </button>
+          </td>
+          <td>
+            <button (click)="updateProduct(product)" class="btn btn-outline-danger">Update
+              <i class="bi bi-pencil"></i>
             </button>
           </td>
         </tr>

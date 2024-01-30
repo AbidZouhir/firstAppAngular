@@ -10,6 +10,7 @@ import {HttpClientModule, provideHttpClient, withFetch} from "@angular/common/ht
 import {ProductService} from "./services/product.service";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { UpdateProductComponent } from './update-product/update-product.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { UpdateProductComponent } from './update-product/update-product.componen
     HomeComponent,
     ProductsComponent,
     NewProductComponent,
-    UpdateProductComponent
+    UpdateProductComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

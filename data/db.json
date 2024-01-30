@@ -16,13 +16,13 @@
       "id": "3",
       "name": "Watch 4",
       "prix": "5210",
-      "checked": false
+      "checked": true
     },
     {
       "id": "4",
       "name": "Tv",
       "prix": 7000,
-      "checked": false
+      "checked": true
     },
     {
       "id": "10f3",
@@ -69,7 +69,7 @@
     {
       "name": "PC hp",
       "prix": "5300",
-      "checked": false,
+      "checked": true,
       "id": "t44M5Pu"
     },
     {

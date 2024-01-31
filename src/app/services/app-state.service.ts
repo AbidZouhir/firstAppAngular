@@ -11,7 +11,9 @@ export class AppStateService {
     totalPages : 0,
     pageSize : 4,
     currentPage : 1,
-    totalProducts : 0
+    totalProducts : 0,
+    status : "",
+    errorMessage : ""
   }
   constructor() { }
   public setProductState(state : any){

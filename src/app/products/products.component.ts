@@ -21,9 +21,12 @@ export class ProductsComponent implements OnInit{
      this.getProducts();
     }
     getProducts(){
-      this.productService.searchProducts(this.appState.productsState.keyword,
+      this.appState.setProductState({status:"LOADING"});
+      this.productService.searchProducts(
+        this.appState.productsState.keyword,
         this.appState.productsState.currentPage,
-        this.appState.productsState.pageSize).subscribe({
+        this.appState.productsState.pageSize
+      ).subscribe({
         next : (response) => {
           let products=response.body as Product[];
           let totalProducts : number=parseInt(response.headers.get(`X-Total-Count`)!);
@@ -35,10 +38,13 @@ export class ProductsComponent implements OnInit{
           this.appState.setProductState({
             products : products,
             totalProducts : totalProducts,
-            totalPages : totalPages
+            totalPages : totalPages,
+            status : "LOADED"
           })
         },
-        error : err => console.log(err)
+        error : err => this.appState.setProductState({
+          status : "ERROR",
+          errorMessage : err})
       })
       //this.products=this.productService.getProducts();
     }

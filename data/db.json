@@ -1,14 +1,8 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "PC",
-      "prix": 7000,
-      "checked": true
-    },
-    {
       "id": "2",
-      "name": "Printer 52",
+      "name": "Printer 556",
       "prix": "60253",
       "checked": true
     },
@@ -16,19 +10,19 @@
       "id": "3",
       "name": "Watch 4",
       "prix": "5210",
-      "checked": true
+      "checked": false
     },
     {
       "id": "4",
       "name": "Tv",
       "prix": 7000,
-      "checked": true
+      "checked": false
     },
     {
       "id": "10f3",
       "name": "Smart tv",
       "prix": "6200",
-      "checked": false
+      "checked": true
     },
     {
       "id": "7cc7",
@@ -63,7 +57,7 @@
     {
       "name": "PC hp",
       "prix": "5300",
-      "checked": false,
+      "checked": true,
       "id": "s6e9JTw"
     },
     {
@@ -155,6 +149,84 @@
       "prix": "5300",
       "checked": false,
       "id": "t44M5Pu"
+    },
+    {
+      "name": "kejkeh",
+      "prix": "6222",
+      "checked": true,
+      "id": "ixGD-Hc"
+    },
+    {
+      "name": "kejkeh",
+      "prix": "6222",
+      "checked": true,
+      "id": "SAjnEdo"
+    },
+    {
+      "name": "kejkeh",
+      "prix": "6222",
+      "checked": true,
+      "id": "x22iTAN"
+    },
+    {
+      "name": "kejkeh",
+      "prix": "6222",
+      "checked": true,
+      "id": "ofl35Pe"
+    },
+    {
+      "name": "Apple",
+      "prix": "854",
+      "checked": true,
+      "id": "1GGYGvN"
+    },
+    {
+      "name": "Apple",
+      "prix": "854",
+      "checked": true,
+      "id": "JCvVhzf"
+    },
+    {
+      "name": "Apple",
+      "prix": "854",
+      "checked": true,
+      "id": "5WrZNwm"
+    },
+    {
+      "name": "Apple Watch",
+      "prix": "2000",
+      "checked": false,
+      "id": "R6PSk7Y"
+    },
+    {
+      "name": "Apple Watch",
+      "prix": "2000",
+      "checked": false,
+      "id": "46b0gyq"
+    },
+    {
+      "name": "Zeblaze",
+      "prix": "300",
+      "checked": true,
+      "id": "N01KDBh"
+    },
+    {
+      "name": "Zeblaze",
+      "prix": "300",
+      "checked": true,
+      "id": "cjr6SWj"
+    },
+    {
+      "name": "Redmi",
+      "prix": "1524",
+      "checked": true,
+      "id": "EUTO1xQ"
+    },
+    {
+      "name": "FJKEJKEJD",
+      "prix": "63222",
+      "checked": false,
+      "id": "mQfP_ZL"
     }
   ]
 }

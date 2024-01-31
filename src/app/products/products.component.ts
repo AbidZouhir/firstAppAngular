@@ -21,7 +21,7 @@ export class ProductsComponent implements OnInit{
      this.getProducts();
     }
     getProducts(){
-      this.appState.setProductState({status:"LOADING"});
+      //this.appState.setProductState({status:"LOADING"});
       this.productService.searchProducts(
         this.appState.productsState.keyword,
         this.appState.productsState.currentPage,

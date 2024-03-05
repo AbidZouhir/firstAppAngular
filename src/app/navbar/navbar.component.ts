@@ -9,9 +9,9 @@ import {LoadingService} from "../services/loading.service";
 })
 export class NavbarComponent {
   actions : Array<any> = [
-    {title : "home",route:"/home", icon : "house"},
-    {title : "products",route:"/products", icon : "search"},
-    {title : "New Product",route:"/newProduct", icon : "safe"}
+    {title : "home",route:"/admin/home", icon : "house"},
+    {title : "products",route:"/admin/products", icon : "search"},
+    {title : "New Product",route:"/admin/newProduct", icon : "safe"}
   ];
   currentAction : any ;
   //public isLoading : boolean = false
